@@ -1,0 +1,247 @@
+body {
+	margin:0; padding:0; background-color:#ffffff;
+	font: bold 12px consolas,courier new,monospace;
+}
+
+div#loginData  {
+	padding:14px 10px 10px 10px;
+	margin:0px 10px 0 10px;
+	background-color:#fff;
+	text-align: center;
+}
+
+div#loginPage	{
+    position:fixed;
+    top: 20%;
+    left: 50%;
+    width:24em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -12em; /*set to a negative number 1/2 of your width*/
+}
+
+div#header        {
+	padding:10px 10px 10px 15px; margin:10px 10px 0px 10px; 
+	border-bottom:2px solid #50ff50; 
+	width:auto; overflow:hidden; 
+	background-color:#424c53;
+	color: #ffffff;
+	text-align: left;
+	font: bold 12px tahoma,helvetica neue,arial;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	background-image:-moz-linear-gradient(top, #5e676d, #424c53); /* FF3.6 */
+	background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0, #5e676d),color-stop(1, #424c53)); /* Saf4+, Chrome */
+						filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#5e676d', EndColorStr='#424c53'); /* IE6,IE7 */
+				-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorStr='#5e676d', EndColorStr='#424c53')"; /* IE8 */	
+	-moz-border-radius-topleft:5px; -moz-border-radius-topright:5px; -webkit-border-top-left-radius:5px; -webkit-border-top-right-radius:5px;
+}
+	
+div#header button#turnOff {
+	float:right;
+}
+
+div#footer {
+	padding:5px 10px 5px 5px; margin:0 10px; 
+	border-top:2px solid #50ff50; 
+	width:auto; overflow:hidden; 
+	background-color:#424c53;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;	
+	background-image:-moz-linear-gradient(top, #5e676d, #424c53); /* FF3.6 */
+	background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0, #5e676d),color-stop(1, #424c53)); /* Saf4+, Chrome */
+						filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#5e676d', EndColorStr='#424c53'); /* IE6,IE7 */
+				-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorStr='#5e676d', EndColorStr='#424c53')"; /* IE8 */	
+	-moz-border-radius-bottomleft:5px; -moz-border-radius-bottomright:5px; -webkit-border-bottom-left-radius:5px; -webkit-border-bottom-right-radius:5px;
+}
+
+div#footer button {
+	padding: 4px 10px 4px 10px;
+	border: 1px solid #50ff50;
+	background-color:#dedede;
+	color: black;
+	font: bold 12px tahoma,helvetica neue,arial;
+	border-radius: 5px;
+	background-image:-moz-linear-gradient(top, #f6f6f6, #dedede); /* FF3.6 */
+	background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0, #f6f6f6),color-stop(1, #dedede)); /* Saf4+, Chrome */
+						filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#f6f6f6', EndColorStr='#dedede'); /* IE6,IE7 */
+				-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorStr='#f6f6f6', EndColorStr='#dedede')"; /* IE8 */	
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	cursor: pointer;
+}
+div#footer button#saveFile {float:right;}
+div#footer button#createDb {float:right;}
+
+input[type="button"], input[type="submit"] {
+	border: 1px solid #50ff50;
+	background-color:#dedede;
+	color: white;
+	font: 12px tahoma,helvetica neue,arial;
+	border-radius: 5px;
+	background-image:-moz-linear-gradient(top, #5e676d, #424c53); /* FF3.6 */
+	background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0, #5e676d),color-stop(1, #424c53)); /* Saf4+, Chrome */
+						filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#5e676d', EndColorStr='#424c53'); /* IE6,IE7 */
+				-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorStr='#5e676d', EndColorStr='#424c53')"; /* IE8 */	
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	cursor: pointer;
+	padding: 4px;
+}
+
+select, input [type="number"], input [type="text"] {
+	height: 1.7em;
+}
+
+input#add_ok {
+	width: 5em;
+	float: left;
+}
+input#add_cancel {
+	width: 5em;
+	float:right;
+}
+input#add_switch, input#add_lamp {
+	width: 15em;
+	margin: 10px 0px 20px 0px;
+}
+input#save_switches, input#save_lamps, input#upload {
+	width: 15em;
+	margin: 10px 0px 20px 40px;
+}
+
+.headrow {
+	display: table-row;
+}
+.headcol {
+	display: table-cell;
+	padding: 0px 10px 0px 10px;
+	text-align: center;
+}
+
+.swtable {
+	margin-right: 50px;
+}
+
+.swtable table, .lmptable table {
+	border-collapse: collapse;
+}
+
+.lmptable {
+	float: left;
+	margin-right: 5em;
+}
+
+.swtable td.switchcell, .lmptable td.switchcell {
+	display: table-cell;
+	border-top: 1px solid lightgray;
+	vertical-align: middle;
+	padding: 3px 10px 3px 10px;
+	text-align: center;
+	position: relative;
+}
+.swtable td.selected, .lmptable td.selected {
+	background-color: lightgray;
+}
+
+.swtable td.lamp {
+	border-top: 0px;
+	text-align: left;
+}
+.swtable td.lampchange {
+	border-top: 0px;
+	text-align: center;
+}
+.swtable td.lampright {
+	border-top: 0px;
+	text-align: right;
+}
+
+.swhelp {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #dedede;
+	font: 12px tahoma,helvetica neue,arial;
+	padding: 10px;
+}
+
+.swhelpList  {
+	margin-left: 3em;
+}
+
+.swhelpList li {
+	margin-top: 5px;
+}
+
+.nooSettings {
+	font: 12px tahoma,helvetica neue,arial;
+	padding-right: 5em;
+}
+
+.modeselect {
+	text-align: left;
+}
+
+#channelNumber {
+	width: 3em;
+}
+
+.selectbox  {
+	position: absolute;
+	z-index: 9999;
+	background-color: white;
+	border: 1px solid gray;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 10px;
+	white-space: nowrap;
+	vertical-align: middle;
+	text-align: left;
+}
+.selectbox > div div {
+	padding: 10px 0 0 0;
+}
+.selectbox label input[type=checkbox]{
+	position: relative;
+    vertical-align: middle;
+    bottom: 1px;
+}
+
+.selectbox #chEnabledLabel {
+	float: right;
+}
+
+.nodisplay {
+	display: none;
+}
+
+.lamprow  {
+	display: none;
+}
+.lampcell {
+	text-align: left; vertical-align: middle;
+}
+.lampcellarrow {
+	text-align: center; vertical-align: middle;
+}
+
+.addlamp {
+	text-align: right; vertical-align: middle;
+}
+.addlampsign {
+	text-align: center; vertical-align: middle; position: relative;
+}
+.swdellampsign, .dellampsign {
+	text-align: center; vertical-align: middle; position: relative;
+}
+
+.drag {
+	position: relative;
+}
+.smalllamp {
+	height: 22px;
+}
+.biglamp {
+	height: 55px;
+}

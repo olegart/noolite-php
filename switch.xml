@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+    <channel id="2" enabled="yes" mode="toggle" command="4">
+		<lamp channel="1"/>
+	</channel>
+
+    <channel id="3" enabled="yes" mode="alloff" command="5">
+	</channel>
+
+    <channel id="4" enabled="yes" mode="off" command="5">
+		<lamp channel="4"/>
+		<lamp channel="5"/>
+	</channel>
+
+    <channel id="4" enabled="yes" mode="toggle" command="4">
+		<lamp channel="4"/>
+	</channel>
+
+    <channel id="4" enabled="no" mode="toggle" command="10">
+	</channel>
+
+    <channel id="5" enabled="yes" mode="toggle" command="4">
+		<lamp channel="1"/>
+	</channel>
+
+    <channel id="6" enabled="yes" mode="alloff" command="5">
+	</channel>
+
+    <channel id="7" enabled="yes" mode="group" command="4">
+		<lamp channel="2"/>
+		<lamp channel="3"/>
+	</channel>
+
+    <channel id="8" enabled="yes" mode="combined" command="4">
+		<lamp channel="2"/>
+		<lamp channel="3"/>
+	</channel>
+
+    <channel id="8" enabled="yes" mode="off" command="5">
+		<lamp channel="2"/>
+		<lamp channel="3"/>
+	</channel>
+
+    <channel id="8" enabled="no" mode="off" command="10">
+	</channel>
+
+    <channel id="10" enabled="yes" mode="toggle" command="4">
+		<lamp channel="5"/>
+	</channel>
+
+    <channel id="11" enabled="yes" mode="toggle" command="4">
+		<lamp channel="4"/>
+	</channel>
+
+    <channel id="12" enabled="yes" mode="toggle" command="5">
+		<lamp channel="1"/>
+	</channel>
+
+    <channel id="14" enabled="yes" mode="combined" command="4">
+		<lamp channel="16"/>
+		<lamp channel="15"/>
+	</channel>
+
+    <channel id="14" enabled="yes" mode="group" command="5">
+		<lamp channel="16"/>
+		<lamp channel="15"/>
+	</channel>
+
+    <channel id="14" enabled="no" mode="group" command="10">
+	</channel>
+
+    <channel id="17" enabled="yes" mode="combined" command="4">
+		<lamp channel="16"/>
+		<lamp channel="15"/>
+	</channel>
+
+    <channel id="17" enabled="yes" mode="group" command="5">
+		<lamp channel="16"/>
+		<lamp channel="15"/>
+	</channel>
+
+    <channel id="17" enabled="no" mode="group" command="10">
+	</channel>
+
+    <channel id="19" enabled="yes" mode="toggle" command="4">
+		<lamp channel="8"/>
+	</channel>
+
+    <channel id="20" enabled="yes" mode="combined" command="4">
+		<lamp channel="6"/>
+		<lamp channel="7"/>
+	</channel>
+
+    <channel id="20" enabled="yes" mode="group" command="5">
+		<lamp channel="6"/>
+		<lamp channel="7"/>
+	</channel>
+
+    <channel id="20" enabled="no" mode="group" command="10">
+	</channel>
+
+    <channel id="22" enabled="yes" mode="toggle" command="4">
+		<lamp channel="8"/>
+	</channel>
+
+    <channel id="23" enabled="yes" mode="combined" command="4">
+		<lamp channel="6"/>
+		<lamp channel="7"/>
+	</channel>
+
+    <channel id="23" enabled="yes" mode="group" command="5">
+		<lamp channel="6"/>
+		<lamp channel="7"/>
+	</channel>
+
+    <channel id="23" enabled="no" mode="group" command="10">
+	</channel>
+
+    <channel id="25" enabled="yes" mode="toggle" command="4">
+		<lamp channel="8"/>
+	</channel>
+
+    <channel id="26" enabled="yes" mode="combined" command="4">
+		<lamp channel="6"/>
+		<lamp channel="7"/>
+	</channel>
+
+    <channel id="26" enabled="yes" mode="group" command="5">
+		<lamp channel="6"/>
+		<lamp channel="7"/>
+	</channel>
+
+    <channel id="26" enabled="no" mode="group" command="10">
+	</channel>
+
+    <channel id="29" enabled="yes" mode="toggle" command="4">
+		<lamp channel="2"/>
+	</channel>
+</channels>

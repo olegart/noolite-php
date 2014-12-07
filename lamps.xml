@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+    <channel id="1" title="Прихожая" type="lamp">
+		<image x="338" y="275"/>
+	</channel>
+
+    <channel id="2" title="Кухня - люстра" type="lamp">
+		<image x="445" y="168"/>
+	</channel>
+
+    <channel id="3" title="Кухня - люстра" type="lamp">
+		<image x="464" y="168"/>
+	</channel>
+
+    <channel id="4" title="Санузел" type="lamp">
+		<image x="285" y="199"/>
+	</channel>
+
+    <channel id="5" title="Кухня - над столом" type="lamp">
+		<image x="569" y="177"/>
+	</channel>
+
+    <channel id="6" title="Большая комната - люстра" type="lamp">
+		<image x="591" y="284"/>
+	</channel>
+
+    <channel id="7" title="Большая комната - люстра" type="lamp">
+		<image x="607" y="283"/>
+	</channel>
+
+    <channel id="8" title="Веранда" type="lamp">
+		<image x="725" y="195"/>
+	</channel>
+
+    <channel id="9" title="Полив газона" type="other">
+		<image x="645" y="137"/>
+	</channel>
+
+    <channel id="15" title="Маленькая комната - люстра" type="lamp">
+		<image x="451" y="365"/>
+	</channel>
+
+    <channel id="16" title="Маленькая комната - люстра" type="lamp">
+		<image x="435" y="365"/>
+	</channel>
+</channels>

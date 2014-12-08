@@ -2,7 +2,7 @@ $.ajax({
     type: "GET",
     url: "../lamps.xml",
     dataType: "xml",
-	async: false,
+    cache: false,
     success: function (xml) {
 		$(xml).find("channels").each(function() {
 			$(".lmptable").append("<table><tr class='headrow'><th class='headcol'>Канал</th><th class='headcol'>Название</th><th class='headcol'>Тип</th><th class='headcol'>Изменить</th><th class='headcol'>Удалить</th><th style='display:none'>X</th><th style='display:none'>Y</th></tr>");

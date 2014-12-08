@@ -37,7 +37,7 @@ $.ajax({
     type: "GET",
     url: "../lamps.xml",
     dataType: "xml",
-	async: false,
+    async: false,
     success: function (xml) {
 		$(xml).find("channels").each(function() {
 			$(this).find("channel").each(function() {
@@ -51,6 +51,7 @@ $.ajax({
     type: "GET",
     url: "../switch.xml",
     dataType: "xml",
+    async: false,
     success: function (xml) {
 		$(xml).find("channels").each(function() {
 			$(".swtable").append("<table><tr class='headrow'><th class='headcol'>Канал</th><th class='headcol'>Включено</th><th class='headcol'>Режим</th><th class='headcol'>Команда</th><th class='headcol'>Лампы</th><th class='headcol'>Изменить</th><th class='headcol'>Удалить</th></tr>");
